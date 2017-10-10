@@ -13,3 +13,7 @@ func Echo(v *nvim.Nvim, s string) error {
 func Exec(v *nvim.Nvim, cmd string) error {
 	return v.Command("!" + cmd)
 }
+
+func NewBuffer(v *nvim.Nvim) error {
+	return v.Command("enew")
+}
