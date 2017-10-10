@@ -9,3 +9,7 @@ func Echom(v *nvim.Nvim, s string) error {
 func Echo(v *nvim.Nvim, s string) error {
 	return v.Command("echo '" + s + "'")
 }
+
+func Exec(v *nvim.Nvim, cmd string) error {
+	return v.Command("!" + cmd)
+}
