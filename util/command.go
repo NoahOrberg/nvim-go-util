@@ -75,7 +75,7 @@ func (c *Command) NewBuffer() *Command {
 	return nc
 }
 
-func (c *Command) ExecuteUnixCommand(ucmd string) *Command {
+func (c *Command) UnixCommand(ucmd string) *Command {
 	nc := &Command{
 		fmt.Sprintf("!%s", ucmd),
 	}

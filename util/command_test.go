@@ -8,7 +8,7 @@ import (
 
 func Test_ExecuteUnixCommand(t *testing.T) {
 	cmd := NewCommand().
-		ExecuteUnixCommand("echo").
+		UnixCommand("echo").
 		Args([]string{"ok, I think so."}).
 		ToCmd()
 
