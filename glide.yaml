@@ -1,0 +1,9 @@
+package: github.com/NoahOrberg/nvim-go-util
+import:
+- package: github.com/NoahOrberg/go-client
+  subpackages:
+  - nvim
+testImport:
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert

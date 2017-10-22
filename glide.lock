@@ -1,0 +1,25 @@
+hash: b874c124a8b79ea47d1cef85982939d8d9c9a4d1d0367738bfc2762bf4b51c79
+updated: 2017-10-22T23:47:28.941748484+09:00
+imports:
+- name: github.com/neovim/go-client
+  version: 41046447d68e201c1988a66b665ab8a41536c028
+  subpackages:
+  - msgpack
+  - msgpack/rpc
+- name: github.com/NoahOrberg/go-client
+  version: 41046447d68e201c1988a66b665ab8a41536c028
+  subpackages:
+  - nvim
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 04cdfd42973bb9c8589fd6a731800cf222fde1a9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: 2aa2c176b9dab406a6970f6a55f513e8a8c8b18f
+  subpackages:
+  - assert
